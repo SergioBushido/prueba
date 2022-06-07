@@ -3,10 +3,11 @@ package Cuentas;
 public class Main {
 
     public static void main(String[] args) {
-        Operativa_Cuenta(null);
+    
+        operativa_cuenta(null);
     }
-
-    private static void Operativa_Cuenta(Float cantidad) {
+//he realizado unas modificaciones
+    private static void operativa_cuenta(Float cantidad) {
         CCuenta Cuenta1;
         double saldoActual;
 
